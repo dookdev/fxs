@@ -1,1 +1,66 @@
-<router-outlet></router-outlet>
+<div class="uk-section-primary uk-preserve-color tm-section-texture">
+
+  <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+
+    <nav class="uk-navbar-container">
+      <div class="uk-container uk-container-expand">
+        <div uk-navbar>
+          <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+              <li class="uk-active"><a href="#">Home</a></li>
+              <li>
+                <a href="#">Pricing</a>
+                <div class="uk-navbar-dropdown">
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#modal-full" uk-toggle>Login</a></li>
+              <li><a href="#modal-full" uk-toggle>Register</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="uk-section uk-light">
+    <div class="uk-container">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+    </div>
+  </div>
+
+  <div class="uk-section-large">
+    <div class="uk-container uk-container-expand">
+
+    </div>
+  </div>
+
+</div>
+
+<div id="modal-full" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');" uk-height-viewport></div>
+            <div class="uk-padding-large">
+                <h1>Login</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+</div>
